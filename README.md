@@ -1,5 +1,9 @@
 # generator-wix-react-components
 
+As we going to produce a lot of components it's good to automate component bootstrapping process. Create component structure with just one command. 🎉
+
+
+
 
 ## Installation
 
@@ -39,6 +43,8 @@ It will ask you to enter a name of a component in **kebab-case**:
  ´   `  |° ´ Y `
  (components) your-new-component-name 
 ```
+
+
 
 After you enter the name you should see that the next files are created:
 
