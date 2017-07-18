@@ -35,7 +35,7 @@ It will ask you to enter a name of a component in **kebab-case**:
      _-----_
     |       |    ╭──────────────────────────╮
     |--(o)--|    │ Hey! Give this component │
-   `---------´   │     a kamel-case name    │
+   `---------´   │     a kebab-case name    │
     ( _´U`_ )    ╰──────────────────────────╯
     /___A___\   /
      |  ~  |

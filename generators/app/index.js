@@ -12,7 +12,7 @@ module.exports = class extends Generator {
       {
         type: 'input',
         name: 'name',
-        message: yosay(`Hey! Give this component a ${chalk.underline.black.bgRed('kamel-case')} name`),
+        message: yosay(`Hey! Give this component a ${chalk.underline.black.bgRed('kebab-case')} name`),
         default: this.appname
       },
     ]).then(answers => {
