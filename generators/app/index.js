@@ -56,8 +56,6 @@ module.exports = class extends Generator {
       this.destinationPath(`${data.names['component-name']}/${data.names['component-name']}.tsx`), 
       data
     );
-    
-    this.log(yosay(`Wow! Done!`));
   }
   
 };

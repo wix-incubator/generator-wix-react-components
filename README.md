@@ -54,3 +54,12 @@ $$
 Voilà
 $$
 
+
+
+## Structure of the generator
+
+A payload of this tool locates at `generators/app` directory:
+
+- `templates/` are file skeletons to use;
+- `index.js` is main logic of the generator.
+
