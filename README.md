@@ -46,7 +46,7 @@ It will ask you to enter a name of a component in **kebab-case**:
 
 
 
-After you enter the name you should see that the next files are created:
+After you enter the name you should see that the next files with specific content are created:
 
 ```
 your-new-component-name/index.ts
