@@ -35,25 +35,25 @@ module.exports = class extends Generator {
 
     this.fs.copyTpl(
       this.templatePath('index.ts'),
-      this.destinationPath(`index.ts`), 
+      this.destinationPath(`${data.names['component-name']}/index.ts`), 
       data
     );
 
     this.fs.copyTpl(
       this.templatePath('new-component.css'),
-      this.destinationPath(`${data.names['component-name']}.css`), 
+      this.destinationPath(`${data.names['component-name']}/${data.names['component-name']}.css`), 
       data
     );
     
     this.fs.copyTpl(
       this.templatePath('new-component.spec.tsx'),
-      this.destinationPath(`${data.names['component-name']}.spec.tsx`), 
+      this.destinationPath(`${data.names['component-name']}/${data.names['component-name']}.spec.tsx`), 
       data
     );
 
     this.fs.copyTpl(
       this.templatePath('new-component.tsx'),
-      this.destinationPath(`${data.names['component-name']}.tsx`), 
+      this.destinationPath(`${data.names['component-name']}/${data.names['component-name']}.tsx`), 
       data
     );
     
