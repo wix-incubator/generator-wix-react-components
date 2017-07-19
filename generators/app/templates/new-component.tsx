@@ -8,6 +8,10 @@ export interface <%= names['ComponentName'] %>State {};
 
 export class <%= names['ComponentName'] %> extends React.Component<<%= names['ComponentName'] %>Props, <%= names['ComponentName'] %>State> {
   render() {
-    return (<div className={style['<%= names["component-name"] %>']}></div>);
+    return (
+      <div className={style['<%= names["component-name"] %>']} data-automation-id='<%= names["COMPONENT-NAME"] %>'>
+        <%= names['ComponentName'] %>
+      </div>
+    );
   }
 }

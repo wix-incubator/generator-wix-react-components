@@ -8,7 +8,7 @@ describe('<<%= names['ComponentName'] %> />', () => {
   afterEach(() => clientRenderer.cleanup())
 
   it('outputs an HTML element', async () => {
-    const { select, waitForDom } = clientRenderer.render(<<%= names['ComponentName'] %> data-automation-id="<%= names['COMPONENT-NAME'] %>" />);
+    const { select, waitForDom } = clientRenderer.render(<<%= names['ComponentName'] %> />);
 
     await waitForDom(() => {
       const element = select('<%= names["COMPONENT-NAME"] %>') as HTMLInputElement;
