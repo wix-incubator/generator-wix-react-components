@@ -1,6 +1,6 @@
 {
   "name": "generator-wix-react-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create component structure with just one command.",
   "homepage": "https://github.com/wix/generator-wix-react-components",
   "author": {
@@ -50,8 +50,8 @@
       "node": true
     }
   },
-  "repository":  {
-    "type" : "git",
+  "repository": {
+    "type": "git",
     "url": "https://github.com/wix/generator-wix-react-components"
   },
   "license": "MIT"
