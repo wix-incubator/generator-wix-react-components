@@ -50,6 +50,9 @@
       "node": true
     }
   },
-  "repository": "https://github.com/wixplosives/generator-wix-react-components",
+  "repository":  {
+    "type" : "git",
+    "url": "https://github.com/wixplosives/generator-wix-react-components"
+  },
   "license": "MIT"
 }
