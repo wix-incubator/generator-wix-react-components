@@ -2,13 +2,13 @@
   "name": "generator-wix-react-components",
   "version": "0.0.1",
   "description": "Create component structure with just one command.",
-  "homepage": "https://github.com/wixplosives/generator-wix-react-components",
+  "homepage": "https://github.com/wix/generator-wix-react-components",
   "author": {
     "name": "Maksym Kramarenko",
     "email": "maksym@wix.com",
     "url": "https://github.com/Ta4i"
   },
-  "bugs": "https://github.com/wixplosives/generator-wix-react-components/issues",
+  "bugs": "https://github.com/wix/generator-wix-react-components/issues",
   "files": [
     "generators"
   ],
@@ -52,7 +52,7 @@
   },
   "repository":  {
     "type" : "git",
-    "url": "https://github.com/wixplosives/generator-wix-react-components"
+    "url": "https://github.com/wix/generator-wix-react-components"
   },
   "license": "MIT"
 }
